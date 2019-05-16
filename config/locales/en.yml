@@ -1,0 +1,13 @@
+# English
+en:
+  header:
+    menu:
+      language: 'Language'
+      home: 'Home'
+      about_us: 'About Us'
+      service: 'Service'
+      search: 'Search'
+  content:
+    demo_text: 'Internationalization Demo here'
+  user:
+    user_text: 'User'

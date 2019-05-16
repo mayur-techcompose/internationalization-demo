@@ -1,0 +1,13 @@
+# Russian
+ru:
+  header:
+    menu:
+      language: 'язык'
+      home: 'Главная'
+      about_us: 'Насчет нас'
+      service: 'обслуживание'
+      search: 'Поиск'
+  content:
+    demo_text: 'Интернационализация Демо здесь'
+  user:
+    user_text: 'пользователей'

@@ -1,0 +1,5 @@
+<h1><%= translate_language(params[:locale], 'New User') %></h1>
+
+<%= render 'form', user: @user %>
+
+<%= link_to translate_language(params[:locale], 'Back'), users_path %>

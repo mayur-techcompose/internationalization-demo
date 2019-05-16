@@ -1,0 +1,13 @@
+# Spanish
+es:
+  header:
+    menu:
+      language: 'Idioma'
+      home: 'Casa'
+      about_us: 'Sobre nosotros'
+      service: 'Servicio'
+      search: 'Buscar'
+  content:
+    demo_text: 'Demostración de internacionalización aquí'
+  user:
+    user_text: 'Usuarios'

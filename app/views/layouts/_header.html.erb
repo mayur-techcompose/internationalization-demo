@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin:24px 0;">
+  <a class="navbar-brand" href="/"><%= image_tag 'techcompose.png', width: 50, height: 50%></a>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navb">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <%= t 'header.menu.language'%>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <%= link_to 'English', url_for(locale: :en), class: "dropdown-item" %>
+            <%= link_to 'Russisch', url_for(locale: :ru), class: "dropdown-item" %>
+            <%= link_to 'हिंदी', url_for(locale: :hi), class: "dropdown-item" %>
+            <%= link_to 'Español', url_for(locale: :es), class: "dropdown-item" %>
+            <%= link_to 'Nederlands', url_for(locale: :nl), class: "dropdown-item" %>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="javascript:void(0)"><%= t 'header.menu.home'%></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="javascript:void(0)"><%= t 'header.menu.about_us'%></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="javascript:void(0)"><%= t 'header.menu.service'%></a>
+      </li>
+      <li class="nav-item">
+        <%= link_to (t 'user.user_text'), users_path, class: "nav-link" %>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="<%= t 'header.menu.search'%>">
+      <button class="btn btn-success my-2 my-sm-0" type="button"><%= t 'header.menu.search'%></button>
+    </form>
+  </div>
+</nav>

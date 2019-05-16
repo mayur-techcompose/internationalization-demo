@@ -1,0 +1,13 @@
+# Dutch
+nl:
+  header:
+    menu:
+      language: 'Taal'
+      home: 'Huis'
+      about_us: 'Over ons'
+      service: 'Service'
+      search: 'Zoeken'
+  content:
+    demo_text: 'Internationalisatie Demo hier'
+  user:
+    user_text: 'gebruikers'

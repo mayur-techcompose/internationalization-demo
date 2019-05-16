@@ -1,0 +1,13 @@
+# hindi
+hi:
+  header:
+    menu:
+      language: 'भाषा'
+      home: 'होम'
+      about_us: 'हमारे बारे में'
+      service: 'सर्विस'
+      search: 'खोज'
+  content:
+    demo_text: 'अंतर्राष्ट्रीयकरण डेमो यहाँ'
+  user:
+    user_text: 'उपयोगकर्ता'

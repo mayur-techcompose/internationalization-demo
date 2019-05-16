@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong><%= translate_language(params[:locale], 'Name') %>:</strong>
+  <%= @user.name %>
+</p>
+
+<p>
+  <strong><%= translate_language(params[:locale], 'Email') %>:</strong>
+  <%= @user.email %>
+</p>
+
+<%= link_to translate_language(params[:locale], 'Edit'), edit_user_path(@user) %> |
+<%= link_to translate_language(params[:locale], 'Back'), users_path %>
